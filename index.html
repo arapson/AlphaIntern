@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Article Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="static/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="static/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="static/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script type="text/javascript" src="index.js"></script>
+
+    </head>
+    <body>
+<!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+        <!--navHeaderCollapse acts as an ID for now -->
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <!-- nav navbar-nav gives the style, and navbar-right alligns it to the right -->
+            <ul class='nav navbar-nav navbar-left'>
+                <li><a href="https://www.doodlehome.com/">Doodle Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- active makes it look highlighted/indented when you are on it -->
+                <li class="active"><a href="#">Main Page</a></li>
+                <li><a href="#">I</a></li>
+                <li><a href="#">Love</a></li>
+                <li><a href="#">My</a></li>
+                <!-- drop down menu -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Team<b class="caret"></b></a>
+                    <!-- creates the drop-downs -->
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Michael</a></li>
+                        <li><a href="#">Jenn</a></li>
+                        <li><a href="#">Kelly</a></li>
+                        <li><a href="#">Leslie</a></li>
+                        <li><a href="#">Laura</a></li>
+                        <li><a href="#">Chris</a></li>
+                        <li><a href="#">Andrew</a></li>
+                        <li><a href="#">Kate</a></li>
+                        <li><a href="#">Tom</a></li>
+                        <li><a href="#">Tim</a></li>
+                        <li><a href="#">Lavonne</a></li>
+                        <li><a href="#">Amanda</a></li>
+                        <li><a href="#">Michelle</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+        <div id="myCarousel" class="carousel slide">
+
+        <div class="container">
+            <div class="jumbotron">
+                <center><h1>My Intern Experience</h1>
+<!--                 <p>Did I have a ton of fun??</p>
+                <button class='btn btn-default btn-danger'data-file='YES:)'>????</button>
+                <p>Am I sad to leave??</p>
+                <button class="btn btn-default btn-info" data-file='YES:('>????</button> -->
+            </div>
+        </div>
+    <!-- If this doesn't work, paste this data-rider="carousel" after "carousel"-->
+                        <!--Indicators-->
+<!--         <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class></li>
+                <li data-target="#myCarousel" data-slide-to="2" class></li>
+        </ol> -->
+        <!-- JUMBOTRON -->
+
+
+        <div class="carousel-inner image-center">
+                <div class="item active">
+                        <div class="row text-center">
+                            <img src="img/Screen Shot 2014-07-30 at 3.29.21 PM.png" alt="Execute" class="img-full">
+                        </div>
+
+
+                </div>
+
+                <div class="item">
+                        <div class="row text-center">
+                            <img src="img/createtogether.png" alt="Concert" class="img-full">
+
+                        </div>
+
+                </div>
+
+
+                <div class="item">
+                        <div class="row text-center">
+                            <img src="img/becurious.png" alt="Concert" class="img-full">
+                        </div>
+
+                </div>
+
+                <div class="item">
+                        <div class="row text-center">
+                            <img src="img/ownit.png" alt="Concert" class="img-full">
+                        </div>
+
+                </div>
+        </div>
+        <!-- makes it slide backwards -->
+        <!-- adds a fade!  -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+        <div class="container">
+            <div class="row">
+                <!-- col is just standard class, -nd meanns last time it will be horrizontal is medium -->
+                <div class="col-md-3">
+                    <center>
+                    <h3><a>Execute</a></h3>
+                    <p> Elevate yourself to the competition. When there are high standards and expectations set for you or a group, it is amazing how much that can motivate and push people to achieve higher standards </p>
+                    <a class="btn btn-primary">#Click me!</a>
+                </center>
+                </div>
+                <!-- col is just standard class, -nd meanns last time it will be horrizontal is medium -->
+                <!-- 3 means uses 3 of the 12 boxes in the 1 row -->
+                <div class="col-md-3">
+                    <center>
+                    <h3><a>Create Together</a></h3>
+                    <p>One of the most important things I have come to understand during the span of this internship is the value of a team. </p>
+                    <a class="btn btn-primary">#Click me!</a>
+                </center>
+                </div>
+                <!-- col is just standard class, -nd meanns last time it will be horrizontal is medium -->
+                <div class="col-md-3">
+                    <center>
+                    <h3><a>Be Curious</a></h3>
+                    <p>One of the largest benefits of having a strong team and a friendly work environment is the ability to feel comfortable enough to reach out to other team members for any questions.</p>
+                    <a class="btn btn-primary">Click Me!</a>
+                    </center>
+                </div>
+                <div class="col-md-3 test">
+                    <center>
+                    <h3><a>Own It</a></h3>
+                    <p>Work hard, be efficient, stay focused. make it your own and think differently</p>
+                    <a  class="btn btn-primary">#Click Me!</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!-- sticky footer -->
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <!-- navbar-text centers text within navbar and changes text color -->
+                <p class="navbar-text pull-left">Site Built by Avery Rapson A.K.A the Alpha Intern</p>
+                <!-- links the button to youyube (or whereever), creates a button, changes it red, gives it global btn class/styles -->
+                <a href="http://www.pugbomb.me/" class="navbar-btn btn-danger btn pull-right">PugBomb</a>
+            </div>
+        </div>
+
+        </div>
+
+
+   </body>
+
+</html>
+
+<!-- shit-command-D pastes line to next line -->
